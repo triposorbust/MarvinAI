@@ -1,5 +1,5 @@
 CC = gcc
-CCFLAG = -Wall -Wextra -I/System/Library/Frameworks/Python.framework/Headers
+CCFLAG = -O3 -fast -Wall -Wextra -I/System/Library/Frameworks/Python.framework/Headers
 LDFLAG = -lpython -lm
 
 TARGET = MarvinAI.so

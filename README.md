@@ -3,7 +3,7 @@
 
 C++ code from [nneoneo](https://github.com/nneonneo "nneoneo")'s [2048 AI](https://github.com/nneonneo/2048-ai "2048-ai") ported to vanilla C and wrapped in a Python module.
 
-*N.B.* This is not my AI! The original AI written by [nneoneo](https://github.com/nneonneo "nneoneo"). This is merely my C / Python FFI port of his algorithm. For nefarious purposes.
+**N.B.** This is not my AI! The original AI written by [nneoneo](https://github.com/nneonneo "nneoneo"). This is merely my C / Python FFI port of his algorithm. For nefarious purposes.
 
 
 ### Quickstart
@@ -31,7 +31,7 @@ Only the lamest of tests are provided. You should be able to run `check.py` and 
 MOVE: 1
 ```
 
-Then you're good to go!
+Then you're good to go! Hopefully...
 
 
 ### Playing with Marvin AI
@@ -41,9 +41,9 @@ Then you're good to go!
 
 ### Modifications
 
-Major modifications made to the AI for misc. reasons: (i) No C standard implementation of the C++ map, so caching is disabled; (ii) Max depth changed to speed up game response time.
+Major modifications made to the AI for misc. reasons: (i) No C standard implementation of the C++ `map` templates/classes, so caching is disabled; (ii) Max depth changed to speed up game response time.
 
-See lines 376-378 for additional details.
+See ll. 376-378 for additional details.
 
 ```
 /* state->depth_limit =
