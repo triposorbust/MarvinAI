@@ -43,6 +43,14 @@ Then you're good to go!
 
 Major modifications made to the AI for misc. reasons: (i) No C standard implementation of the C++ map, so caching is disabled; (ii) Max depth changed to speed up game response time.
 
+See lines 376-378 for additional details.
+
+```
+/* state->depth_limit =
+   max(3, count_distinct_tiles(board) - 2); */
+state->depth_limit = 3; 
+```
+
 Currently the max depth is set to 3, where as previously the AI would searc to depths 5-8. This is a response-time optimization.
 
 
