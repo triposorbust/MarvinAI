@@ -51,7 +51,7 @@ See ll. 376-378 for additional details.
 state->depth_limit = 3; 
 ```
 
-Currently the max depth is set to 3, where as previously the AI would searc to depths 5-8. This is a response-time optimization.
+Currently the max depth is set to 3, where as previously the AI would search to depths 5-8. This is a response-time optimization.
 
 
 ### Build Notes
