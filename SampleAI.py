@@ -4,7 +4,7 @@
 from BaseAI import BaseAI
 import MarvinAI
 
-class MarvinAI(BaseAI):
+class SampleAI(BaseAI):
         def __init__(self):
                 MarvinAI.initialize()
 	def getMove(self, grid):

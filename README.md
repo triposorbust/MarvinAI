@@ -36,7 +36,7 @@ Then you're good to go! Hopefully...
 
 ### Playing with Marvin AI
 
-`MarvinAI.py` is provided as a functional AI class that wraps the `MarvinAI` library. This can be modified in pure Python if so desired.
+`SampleAI.py` is provided as a functional AI class that wraps the `MarvinAI` library. This can be modified in pure Python if so desired.
 
 
 ### Modifications
